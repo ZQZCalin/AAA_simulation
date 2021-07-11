@@ -35,10 +35,10 @@ def check_EN(N, k, thres, verbose=False):
 
 if __name__ == "__main__":
   verbose = False
-  num_iter = 1000
+  num_iter = 100
 
-  k = 0.4
-  N = 300
+  k = 0.42
+  N = 700
   thres = k * N**2
 
   results = []
